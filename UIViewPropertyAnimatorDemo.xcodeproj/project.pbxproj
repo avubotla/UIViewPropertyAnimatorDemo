@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004881F320C903EF00E0C31C /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004881F220C903EF00E0C31C /* BasicAnimation.swift */; };
+		004881F720C9060E00E0C31C /* SpringTimigParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004881F620C9060E00E0C31C /* SpringTimigParametersViewController.swift */; };
+		004881F920C9063400E0C31C /* CubicTimingParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004881F820C9063400E0C31C /* CubicTimingParametersViewController.swift */; };
 		0059FB9020C7AAE200616792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059FB8F20C7AAE200616792 /* AppDelegate.swift */; };
-		0059FB9220C7AAE200616792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059FB9120C7AAE200616792 /* ViewController.swift */; };
 		0059FB9520C7AAE200616792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0059FB9320C7AAE200616792 /* Main.storyboard */; };
 		0059FB9720C7AAE300616792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0059FB9620C7AAE300616792 /* Assets.xcassets */; };
 		0059FB9A20C7AAE300616792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0059FB9820C7AAE300616792 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		004881F220C903EF00E0C31C /* BasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
+		004881F620C9060E00E0C31C /* SpringTimigParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringTimigParametersViewController.swift; sourceTree = "<group>"; };
+		004881F820C9063400E0C31C /* CubicTimingParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicTimingParametersViewController.swift; sourceTree = "<group>"; };
 		0059FB8C20C7AAE200616792 /* UIViewPropertyAnimatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewPropertyAnimatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0059FB8F20C7AAE200616792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0059FB9120C7AAE200616792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0059FB9420C7AAE200616792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0059FB9620C7AAE300616792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0059FB9920C7AAE300616792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				0059FB8F20C7AAE200616792 /* AppDelegate.swift */,
-				0059FB9120C7AAE200616792 /* ViewController.swift */,
+				004881F220C903EF00E0C31C /* BasicAnimation.swift */,
+				004881F620C9060E00E0C31C /* SpringTimigParametersViewController.swift */,
+				004881F820C9063400E0C31C /* CubicTimingParametersViewController.swift */,
 				0059FB9320C7AAE200616792 /* Main.storyboard */,
 				0059FB9620C7AAE300616792 /* Assets.xcassets */,
 				0059FB9820C7AAE300616792 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0059FB9220C7AAE200616792 /* ViewController.swift in Sources */,
+				004881F320C903EF00E0C31C /* BasicAnimation.swift in Sources */,
+				004881F920C9063400E0C31C /* CubicTimingParametersViewController.swift in Sources */,
+				004881F720C9060E00E0C31C /* SpringTimigParametersViewController.swift in Sources */,
 				0059FB9020C7AAE200616792 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +288,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UIViewPropertyAnimatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.botla.UIViewPropertyAnimatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,7 +307,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UIViewPropertyAnimatorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.botla.UIViewPropertyAnimatorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
